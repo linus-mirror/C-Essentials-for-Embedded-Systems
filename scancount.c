@@ -1,4 +1,4 @@
-// Print the variable using used defined inputs
+#include<stdio.h>
 
 int main()
 {
@@ -7,7 +7,7 @@ int main()
 	printf("Enter the value of X & Y");
 	scancount = scanf("%d %d",&x,&y);  // Counts number of scanned values in the console
 	printf("\n Value of X = %d & Y = %d",x,y);
-	printf("\n Total number of inputs scanned from the console is %d",scancount);
+	printf("\n Total number of inputs scanned from the console is %d",scancount); // Print the variable using used defined inputs
 	return 0;
 
 }
