@@ -11,7 +11,7 @@ int main()
 
 void disp()
 {
-	float r = 2.5;
+	float r;
 	float r_sqr;
 	float AreaOfCircle;
 	float pi = 3.14;
