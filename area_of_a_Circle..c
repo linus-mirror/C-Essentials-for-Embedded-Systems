@@ -1,7 +1,10 @@
 #include<stdio.h>
+#define pi 3.14
 
 void disp(void);
 float square(float);
+
+// Nested Function
 
 int main()
 {
@@ -14,7 +17,6 @@ void disp()
 	float r;
 	float r_sqr;
 	float AreaOfCircle;
-	float pi = 3.14;
 
 	printf("Enter the radius of the Circle = ");
 	fflush(stdout);
