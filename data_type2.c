@@ -1,4 +1,5 @@
 //Data Types - Printing Character and printing its corresponding Integer value.
+#include<stdio.h>
 
 int main()
 {
