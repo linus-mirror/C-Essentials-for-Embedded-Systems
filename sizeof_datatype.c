@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<stdint.h>
+#include<stddef.h>
 
 int main()
 {
@@ -28,7 +28,7 @@ int main()
 	printf("\n Size of float F = %d Bytes.",sizeof(F));
 	printf("\n Size of double X = %d Bytes.",sizeof(X));
 	printf("\n Size of unsigned N = %d Bytes.",sizeof(N));
-	printf("\n Size of size_t s = %d Bytes.",sizeof(s)); // Included in <stdint.h> library
+	printf("\n Size of size_t s = %d Bytes.",sizeof(s)); // size_t is a unsigned integral type which is included in <stddef.h> library
 
 	return 0;
 }
