@@ -1,2 +1,2 @@
 # C-Essentials-for-Embedded-Systems
-C Programming - Basic Programs/Acticities/Project
+C Programming - Basic Programs/Activities/Project
