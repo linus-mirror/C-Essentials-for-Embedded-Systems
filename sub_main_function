@@ -2,9 +2,10 @@
 
 int a = 10;
 int b = 5;
-int Sub_main(void);
 
-int main()
+int Sub_main(void); // Function Prototype
+
+int main() // Main Function
 {
 	char x = 'H';
 	a = a+b;
@@ -13,7 +14,7 @@ int main()
 	Sub_main();
 }
 
-int Sub_main()
+int Sub_main() // Sub Function
 {
 	printf("\nFrom 2nd Main Program, Value of A = %d",a);
 	return 0;
