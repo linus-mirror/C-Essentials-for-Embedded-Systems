@@ -1,6 +1,7 @@
 //Character count using sprintf
 
 #include<stdio.h>
+#include<string.h>
 
 int main()
 {
