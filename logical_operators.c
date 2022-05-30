@@ -1,13 +1,45 @@
 #include<stdio.h>
+#include<math.h>
+#include"line.c"
 
 int main()
 {
-	int a = 8;
-	int b = 2;
-
-	printf("\n a AND b = %d",a&b);
-	printf("\n a OR b = %d",a|b);
-	printf("\n NOT a = %d", ~a);
-	printf("\n a XOR b = %d",a^b);
+	//Logical Operators
+	int x,y;
+	line();
+	printf("\nEnter the two Numbers = ");
+	scanf("%d%d",&x,&y);
+	printf("x = %d, y = %d",x,y);
+	line();
+	
+	if((x==5)&&(y==10))
+	{
+		printf("\nAND - True");
+	}
+	else
+	{
+		printf("\nAND - False");
+	}
+	
+	line();
+	if((x==5)||(y==10))
+	{
+		printf("\nOR - True");
+	}
+	else
+	{
+		printf("\nOR - False");
+	}
+	
+	line();
+	if(!(x==5))
+	{
+		printf("\nNOT - True");
+	}
+	else
+	{
+		printf("NOT - False");
+	}
 	return 0;
+		
 }
